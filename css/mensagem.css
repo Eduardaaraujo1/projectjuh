@@ -1,0 +1,102 @@
+body{
+    background-color: #050505;
+}
+
+h2{
+    color: #C6FF8A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: -4px;
+}
+
+span{
+    color: #C6FF8A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+
+.square{
+    margin-top: 80px;
+    border: 1px solid white;
+    height: 450px;
+    width: 99%; 
+    border-radius: 10px;
+    
+}
+
+.textcontentgb{
+    margin-top: -50px;
+}
+
+.heartcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heart{
+    width: 80px;
+    height: 130px;
+    margin-top: -20px;
+}
+
+.textcontentgb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcontent{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.055);
+    height: 200px;
+    margin-top: 40px;
+    width: 85%; 
+    border-radius: 10px;
+}
+
+.vc{
+    margin-top: 15px;
+}
+
+hr{
+    margin-top: 4px;
+}
+
+.textcontent3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+    margin-top: -15px;
+}
+
+.heart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    height: 70px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.vc2{
+    color: white; 
+    font-size: 18px;
+}
+
+.vc3{
+    color: #C6FF8A;
+    font-size: 14px;
+    margin-top: 30px;
+}
