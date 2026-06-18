@@ -10,11 +10,19 @@ h2{
     margin-top: 10px;
 }
 
+.extrair{
+    color: #C6FF8A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
 hr{
     margin-top: -4px;
 }
 
-span{
+.motivo{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
@@ -83,10 +91,6 @@ span{
     margin-top: 17px;
 }
 
-.span{
-    color: white;
-    font-size: 15px;
-}
 
 .finalcheck{
     margin-top: 65px;
@@ -138,4 +142,8 @@ a{
 
 .clique{
     font-size: 13px;
+}
+
+p{
+    font-size: 15px;
 }
