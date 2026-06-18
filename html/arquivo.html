@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/arquivo.css">
+    <title>Extrair arquivo</title>
+</head>
+<body>
+        <div class="square">
+        <div class="titlesquare">
+            <h2>sistema_de_analise.exe</h2>
+            <hr>
+        </div>
+            <div class="content"> 
+                <div class="heartcontent">
+                    <span>Extraindo arquivo...</span>
+                </div>
+                <div class="buttoncontent">
+                    <div class="progress">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <script>
+                    const barra = document.querySelector(".progress");
+
+                    barra.addEventListener("animationend", () => {
+                        document
+                            .getElementById("resultado")
+                            .classList.add("mostrar");
+                    }, 1000);
+                </script>
+
+                <div class="conteiner">
+                    <div class="content-item analysis-box">
+                        <div class="resultado" id="resultado">
+                            <p>Arquivo extraído com sucesso!</p>
+                            <a href="mensagem.html"><img src="../img/arquivo.png" alt="arquivo"></a>
+                            <span class="motivo">você.txt</span>
+                            <p class="clique">Clique no arquivo para acessá-lo.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
