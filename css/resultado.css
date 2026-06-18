@@ -1,0 +1,77 @@
+body{
+    background-color: #050505;
+}
+
+h2{
+    color: #C6FF8A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: -4px;
+}
+
+span{
+    color: #C6FF8A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+
+
+.square{
+    margin-top: 80px;
+    border: 1px solid white;
+    height: 450px;
+    width: 99%; 
+    border-radius: 10px;
+    
+}
+
+.heartcontent{
+    margin-top: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    margin-top: -45px;
+}
+
+.textcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.motivo{
+    color: white;
+    font-size: 14px;
+    margin-top: -120px;
+}
+
+.textcontent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clique{
+    font-size: 15px;
+    margin-top: -20px;
+}
