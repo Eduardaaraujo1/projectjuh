@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/analise.css">
-    <title>Document</title>
+    <script src="../js/index.js"></script>
+    <title>Analisando...</title>
 </head>
 <body>
     <div class="square">
@@ -17,9 +18,66 @@
                     <span>Analisando...</span>
                 </div>
                 <div class="buttoncontent">
-                    <button></button>
+                    <div class="progress">
+                        <div class="progress-bar"></div>
+                    </div>
                 </div>
+
+                <div class="conteiner">
+                    <div class="content-item analysis-box">
+
+                        <div class="">
+                            <div id="tasks"></div>
+                        </div>
+
+                   </div>
+                </div>
+
+
             </div>
     </div>
+
+<script> 
+document.addEventListener("DOMContentLoaded", () => {
+
+    const mensagens = [
+        "🔍 Procurando motivo para abrir o WhatsApp...",
+        "💬 Analisando conversas...",
+        "😊 Detectando sorrisos involuntários...",
+        "✅ Conversas: interessantes",
+        "✅ Humor: aprovado",
+        "✅ Vontade de continuar: alta", 
+        "⏳ Finalizando análise..."
+
+    ];
+
+    const container = document.getElementById("tasks");
+
+    mensagens.forEach((mensagem, index) => {
+
+        setTimeout(() => {
+
+            const linha = document.createElement("div");
+
+            linha.classList.add("task");
+
+            linha.textContent = mensagem;
+
+            container.appendChild(linha);
+
+        }, index * 2500);
+
+    });
+
+    const barra = document.querySelector(".progress");
+
+        barra.addEventListener("animationend", () => {
+            window.location.href = "resultado.html";
+
+});
+
+});
+</script>
+
 </body>
 </html>

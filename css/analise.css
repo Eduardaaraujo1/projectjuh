@@ -18,6 +18,8 @@ span{
     color: #C6FF8A;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    margin-left: 30px;
+    padding-top: 30px;
 }
 
 
@@ -30,3 +32,96 @@ span{
     
 }
 
+.heartcontent{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.buttoncontent{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.progress{
+    height: 23px;
+    background-color: transparent;
+    border: 1px solid #add555;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.progress .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #add555;
+   animation: loading 27s normal;
+}
+
+
+@keyframes loading {
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item{
+    border: 1px solid rgb(163, 163, 163);
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 250px;
+    width: 90%;
+}
+
+.check{
+    margin-top: 17px;
+}
+
+.span{
+    color: white;
+    font-size: 15px;
+}
+
+.finalcheck{
+    margin-top: 65px;
+}
+
+.analysis-box {
+    width: 80%;
+    height: 230px;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    padding: 20px;
+
+    color: #A8FF60;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.task {
+    margin-bottom: 12px;
+    opacity: 0;
+    font-size: 13px;
+
+    animation: fadeIn .4s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
