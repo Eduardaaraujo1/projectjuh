@@ -5,13 +5,26 @@ body{
 h2{
     color: #C6FF8A;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin-left: 20px;
+    font-size: 12px;
     margin-top: 10px;
+    margin-bottom: 3px;
 }
 
 hr{
-    margin-top: -4px;
+    margin-top: -10px;
+}
+
+.titlesquare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.x{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
 }
 
 span{
